@@ -6,3 +6,6 @@
 - 完成简单的爬虫程序
 
 测试地址： https://www.cnblogs.com/Axi8/p/5757270.html
+
+## 2019年12月7日
+- 开始学习python2.7基础语法，代码归档至teach目录下

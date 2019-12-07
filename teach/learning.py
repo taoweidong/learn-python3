@@ -18,6 +18,7 @@ from datetime import datetime
 
 CERT_EXPIRES = '2019-07-07'
 
+
 def check_version():
     v = sys.version_info
     if v.major == 3 and v.minor >= 5:
@@ -25,11 +26,13 @@ def check_version():
     print('Your current python is %d.%d. Please use Python 3.6.' % (v.major, v.minor))
     exit(1)
 
+
 def check_cert():
     today = datetime.now().strftime('%Y-%m-%d')
     if today >= CERT_EXPIRES:
         print('This learning.py is expired. Please download a newer version.')
         exit(1)
+
 
 check_version()
 check_cert()
@@ -55,6 +58,7 @@ HTML_INDEX = r'''
   </body>
 </html>
 '''
+
 
 class LearningHTTPRequestHandler(BaseHTTPRequestHandler):
 
@@ -109,6 +113,7 @@ class LearningHTTPRequestHandler(BaseHTTPRequestHandler):
             body = json.dumps(data).encode('utf-8', errors='ignore')
         self.wfile.write(body)
 
+
 def main():
     certfile = write_cert()
     httpd = HTTPServer(('127.0.0.1', PORT), LearningHTTPRequestHandler)
@@ -117,14 +122,17 @@ def main():
     print('Press Ctrl + C to exit...')
     httpd.serve_forever()
 
+
 # functions ###################################################################
 
 INDEX = 0
+
 
 def get_name():
     global INDEX
     INDEX = INDEX + 1
     return 'test_%d' % INDEX
+
 
 def write_py(name, code):
     fpath = os.path.join(TEMP, '%s.py' % name)
@@ -133,11 +141,13 @@ def write_py(name, code):
     print('Code wrote to: %s' % fpath)
     return fpath
 
+
 def decode(s):
     try:
         return s.decode('utf-8')
     except UnicodeDecodeError:
         return s.decode('gbk')
+
 
 # certificate #################################################################
 
@@ -146,6 +156,7 @@ def write_cert():
     with open(fpath, 'w', encoding='utf-8') as f:
         f.write(CERT_DATA)
     return fpath
+
 
 CERT_DATA = r'''
 -----BEGIN RSA PRIVATE KEY-----
