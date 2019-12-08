@@ -10,9 +10,10 @@ if __name__ == '__main__':
     # python是一种动态语言，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的变量
     # java是一种静态语言，变量定义的时候必须指定数据类型，如果赋值时的数据类型和定义的不匹配会报错
     # 字符串的定义
-    print """Hello
-    World
-    Python"""
+    print
+    """Hello
+       World
+       Python"""
     # 数字的定义
     number = 100
     print(number)
@@ -24,7 +25,7 @@ if __name__ == '__main__':
 
     # 空值的定义:这是python中的一种特殊的只，不能理解为0
     abc = None
-    print abc
+    print(abc)
 
     # 内存的理解
 
@@ -38,9 +39,12 @@ if __name__ == '__main__':
     print(b)
 
     # 数学计算演示
-    print 10 / 3
-    print 10.0 / 3
-    print 10 % 3
+    print
+    10 / 3
+    print
+    10.0 / 3
+    print
+    10 % 3
 
     # list列表演示:有序的集合，可以随时添加和删除其中的元素
     listData = ['Hello', 'World']
@@ -64,6 +68,8 @@ if __name__ == '__main__':
 
     # 循环语句
     if flag:
-        print '这是真的'
+        print
+        '这是真的'
     else:
-        print '这是假的'
+        print
+        '这是假的'
