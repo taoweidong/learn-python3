@@ -5,20 +5,7 @@ if __name__ == '__main__':
     # print 'Hello', name
 
     # 变量：就是一个存储数据的时候当前数据所在的内存地址的名称或者代号，用于快速访问到这个内存地址
-    # 定义，在python中，定义的变量必须进行初始化，也就是必须给定初始值
     # 变量名 = 值
-
-    # 标识符的命名规则
-    # 1、由数字，字母，下划线组成
-    # 2、不能数字开头
-    # 3、不能使用内置关键字
-    # 4、严格区分大小写
-
-    # 命名习惯
-    # 1、见名知意
-    # 2、大驼峰
-    # 3、小驼峰
-    # 4、下划线
 
     # python是一种动态语言，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的变量
     # java是一种静态语言，变量定义的时候必须指定数据类型，如果赋值时的数据类型和定义的不匹配会报错
@@ -69,54 +56,14 @@ if __name__ == '__main__':
     listData.append('张三')
     print(listData)
 
-    # 变量演示定义和类型查询
+    # 变量类型查询
     print(type(listData))
     print(type(a))
     print(type(b))
     print(type(abc))
 
-    # 小数定义
-    number01 = 1.22
-    print(number01)
-    print(type(number01))
-
-    # 整数
-    number01 = 2
-    print(number01)
-    print(type(number01))
-
-    # 字符串
-    number01 = 'Hello'
-    print(number01)
-    print(type(number01))
-
-    # boolean类型数据
-    number01 = True
-    print(number01)
-    print(type(number01))
-
-    # 列表
-    number01 = ['A', 'B']
-    number01[0] = 'M'
-    print(number01)
-    print(type(number01))
-
-    # 元组
-    number01 = ('A', 'B')
-    # 元组不允许进行如下的修改
-    # number01[0] = 'M'
-    print(number01)
-    print(type(number01))
-
-    # 集合的演示
-    number01 = {'A', 'B'}
-    # 集合不允许进行如下的修改
-    # number01[0] = 'M'
-    print(number01)
-    print(type(number01))
-
-    # 字典的演示
-    number01 = {'name': 'A', 'age': 10}
-    # number01[0] = 'M'
-    print(number01)
-    print(type(number01))
+    # 循环语句
+    if flag:
+        print '这是真的'
+    else:
+        print '这是假的'
