@@ -27,3 +27,8 @@
 - 学习python的条件判断和循环语句
 - 学习dic和set的使用：使用key-value存储结构的dict在Python中非常有用，选择不可变对象作为key很重要，最常用的key是字符串。
 - 学习list和tuple的使用：list和tuple是Python内置的有序集合，一个可变，一个不可变。根据需要来选择使用它们。
+
+## 2019年12月11日
+- 学习条件语句
+- 学习三目运算符
+- 学习循环(while,for break,continue): 控制代码重复执行 打印九九乘法表
