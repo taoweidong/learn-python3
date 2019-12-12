@@ -1,5 +1,17 @@
 # -*- coding: utf-8 -*-
+
+
+def add_test(a):
+    """
+    这是一个测试函数注释的方法
+    @param a: 参数A
+    """
+    print('我就是随便输出一下:', a)
+
+
 if __name__ == '__main__':
+    help(add_test)
+
     name = ['张三', '李四', '王五', '马六']
     print(name)
     # 迭代方式
