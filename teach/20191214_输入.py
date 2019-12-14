@@ -41,7 +41,7 @@ if __name__ == '__main__':
     print(b)
 
     # 函数的使用:查找函数
-    myStr = "hello World , I am learning python!!"
+    myStr = "hello World, I am learning python!!"
     print(myStr.find("hello", 0, 5))
     print(myStr.find("A55"))
     print(myStr.find("A55"))
@@ -53,3 +53,16 @@ if __name__ == '__main__':
     # 统计函数
     print(myStr.count("h"))
     print(myStr.count("5"))
+
+    # replace函数：替换函数
+    print(myStr.replace("h", "X"))
+    print(myStr.replace("h", "X", 1))
+    # split函数:分割函数:默认使用空格
+    print(myStr.split())
+    print(myStr.split(" ", 2))
+    print(myStr.split(" ", 10))
+
+    # 合并列表的数据为一个字符串 join
+    arr = ["Hello", "World", "Python"]
+    result = " ".join(arr)
+    print(result)
