@@ -66,3 +66,40 @@ if __name__ == '__main__':
     arr = ["Hello", "World", "Python"]
     result = " ".join(arr)
     print(result)
+
+    # 首字符转大写
+    print(result.capitalize())
+    # 每个单词首字符转大写
+    print(result.title())
+    # 所有字符转大写
+    print(result.upper())
+    # 所有字符转小写
+    print(result.lower())
+
+    result = "   Hello World     "
+    # 去除两边空格
+    print(result.strip())
+    print(result.lstrip())
+    print(result.rstrip())
+
+    # 补全字符串
+    result = result.strip()
+    print(result.ljust(20, "X"))
+    print(result.rjust(20, "X"))
+
+    # 是否为指定字符串开头
+    print(result.startswith("Hel", 0, 10))
+    print(result.endswith("d"))
+    arr = ["x", "y"]
+    # print(result.center(3, **arr))
+
+    print("----------------------------")
+    # 是否都是字母
+    result = "Hello"
+    print(result.isdigit())
+    print(result.isalpha())
+    result = "555"
+    print(result.isdigit())
+    result = "Hello555"
+    print(result.isalnum())
+    print(result.isspace())

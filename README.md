@@ -52,3 +52,6 @@
 - 字符串的学习，相关方法的练习
 - 字符串的定义，输入，下标的使用
 - 字符串函数的使用：find,index,count,rfind,rindex
+
+## 2019年12月15日
+- 字符串函数的学习以及练习：isdigit isalpha  isalnum isspace startswith ljust strip capitalize lower
