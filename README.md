@@ -60,3 +60,6 @@
 - 列表相关函数的使用：insert  extend  append del pop remove clear
 - 列表排序相关的函数：reverse sort
 - 列表嵌套定义和迭代
+- 元组的定义：不能修改的列表数据，如果只有一个元素，定义是必须加逗号如：(12,)  ("Hello",")
+- 元组常用的方法：index len count
+- 元组中的元素建议定义为不可变类型，不要定义为列表或者其他可变类型
