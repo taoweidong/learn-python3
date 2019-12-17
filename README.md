@@ -55,3 +55,8 @@
 
 ## 2019年12月15日
 - 字符串函数的学习以及练习：isdigit isalpha  isalnum isspace startswith ljust strip capitalize lower
+
+## 2019年12月17日
+- 列表相关函数的使用：insert  extend  append del pop remove clear
+- 列表排序相关的函数：reverse sort
+- 列表嵌套定义和迭代
