@@ -15,6 +15,9 @@ class Parent(object):
     future = "梦想"
 
     def __init__(self):
+        """
+        魔法方法：初始化类对象
+        """
         # 定义对象变量
         self.name = ""
         self.age = 0
