@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 
 pwd = os.path.abspath('.')
+print(pwd)
 
 print('      Size     Last Modified  Name')
 print('------------------------------------------------------------')

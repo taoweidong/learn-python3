@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     # f-字符串为python3.6版本之后才能使用
     # print(f'我的名字是{name},今年{age}岁')
-    print('Hello', end="\n")
+    print('Hello')
     print('World')
 
     # inputStr = raw_input("请输入姓名:")
