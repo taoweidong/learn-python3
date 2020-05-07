@@ -12,10 +12,20 @@ def test1():
 
 
 def test2(num):
+    """
+    这是一个方法的注释
+    @param num: 方法的入参数
+    @return:  返回值
+    """
     print(num)
+
+
+def getNum():
+    return 10
 
 
 # import lib
 if __name__ == '__main__':
-    result = test1()
-    test2(result)
+    # result = test1()
+    # test2(result)
+    print(getNum())
