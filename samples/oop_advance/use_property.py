@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 class Student(object):
 
     @property
@@ -15,8 +16,9 @@ class Student(object):
             raise ValueError('score must between 0 ~ 100!')
         self._score = value
 
+
 s = Student()
 s.score = 60
 print('s.score =', s.score)
 # ValueError: score must between 0 ~ 100!
-s.score = 9999
+# s.score = 9999

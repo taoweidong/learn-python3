@@ -7,11 +7,12 @@ class Student(object):
         self.name = 'Michael'
 
     def __getattr__(self, attr):
-        if attr=='score':
+        if attr == 'score':
             return 99
-        if attr=='age':
+        if attr == 'age':
             return lambda: 25
         raise AttributeError('\'Student\' object has no attribute \'%s\'' % attr)
+
 
 s = Student()
 print(s.name)
