@@ -1,5 +1,12 @@
 # Python学习记录
 
+## 2020年5月29日
+- xml解析学习
+
+
+## 2020年5月26日
+- jinjia2框架基础学习
+
 ## 2018年10月23日
 - 安装python环境，安装Eclipse开发python插件
 - 完成HelloWorld程序
